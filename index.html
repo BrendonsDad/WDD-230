@@ -19,8 +19,10 @@
         &copy; 2019 | The Mountain Spoke | All Rights Reserved | Today's Date: <span id = "currentdate"></span>
     </footer>
     <script>
-        const todaysdate = new Date();
-        console.log(todaysdate);
+        // toLocanDateString
+        const options = {weekday: 'long', day: 'numeric', month: 'long', year:'numeric'};
+        document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options);
+
     </script>
     
 </body>
