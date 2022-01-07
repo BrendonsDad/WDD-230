@@ -25,10 +25,10 @@ const month = [
     "December"
 ];
 const todaysdate = new Date();
-const dayName = dayNames[todaysdate.getDate()]
+const dayNames = dayNames[todaysdate.getDate()]
 const monthName = month[todaysdate.getMonth()];
 const year = todaysdate.getFullYear;
-const currentdate = dayName + ", " + todaysdate.getDate() + " " + monthName + ", " + todaysdate.getFullYear();
+const currentdate = dayNames + ", " + todaysdate.getDate() + " " + monthName + ", " + todaysdate.getFullYear();
 
 
 document.getElementById('currentdate').textContent = currentdate;
