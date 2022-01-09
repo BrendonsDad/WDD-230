@@ -37,5 +37,5 @@
 
 
 const lastmod = document.querySelector('#lastmod')
-lastmod.textContent = document.lastModified;
+lastmod.textContent = `Date the page was modified ${document.lastModified}`;
 
