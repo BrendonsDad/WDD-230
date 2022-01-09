@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     padding: 5px 25px;
     margin: 0;
-    max-width:800px;
+    max-width:500px;
 
   }
 
@@ -10,14 +10,41 @@ header {
     color:white;
     background-color: #1a759f;
     border-radius:10px;
+    font-size: 34px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.gridgar {
+    display:grid;
+    grid-gap:25px;
+}
+
+#pictureofme {
+    grid-column:1/2;
+    grid-row: 1/2;
+}
+
+#myname {
+    grid-column:2/3;
+    grid-row: 2/3;
 }
 
 footer {
     color:white;
     background-color: #1a759f;
     border-radius:10px;
+    text-align: center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+ul {
+    border-top: gray 1px;
 }
 
 img {
     border-radius:3px;
+}
+
+#lastmod {
+    color:yellow
 }
