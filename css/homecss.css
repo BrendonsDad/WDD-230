@@ -9,9 +9,11 @@ body {
 header {
     color:white;
     background-color: #1a759f;
+    border-radius:10px;
 }
 
 footer {
     color:white;
     background-color: #1a759f;
+    border-radius:10px;
 }
