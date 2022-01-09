@@ -33,6 +33,12 @@ const currentdate = dayNames + ", " + todaysdate.getDate() + " " + monthName + "
 
 document.getElementById('currentdate').textContent = currentdate;
 
+const daysUntil = template`There are ${daycount} days until ${targetEvent}!`;
+
+let t3Closure = template`I'm ${'name'}. I'm almost ${'age'} years old.`;
+
+
+
 
 // const options = {weekday: 'long', day: 'numeric', month: 'long', year:'numeric'};
 // document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options);
