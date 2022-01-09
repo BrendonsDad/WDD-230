@@ -3,5 +3,15 @@ body {
     padding: 5px 25px;
     margin: 0;
     max-width:800px;
-    text-align: center;
+
   }
+
+header {
+    color:white;
+    background-color: #1a759f;
+}
+
+footer {
+    color:white;
+    background-color: #1a759f;
+}
