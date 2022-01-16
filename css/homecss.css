@@ -6,6 +6,10 @@ body {
 
   }
 
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     color:white;
     background-color: #1a759f;
