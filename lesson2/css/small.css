@@ -9,6 +9,7 @@ body {
 main {
     display: grid;
 	grid-template-columns: 1fr;
+    margin: 0 auto
 }
 
 header {
