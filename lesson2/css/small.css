@@ -4,4 +4,21 @@ body {
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr;
+    text-align: center;
+    padding: 1em;
+}
+
+header {
+    background-color: #0a1f32;
+    color: white;
+}
+
+h3 {
+    color: white;
+    background-color: #394958;
+}
+
+section {
+    background-color: #eeeeee;
+    padding: 1em;
 }
