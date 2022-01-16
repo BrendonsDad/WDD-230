@@ -4,5 +4,4 @@ body {
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr;
-	font-size: 0.8rem;
 }
