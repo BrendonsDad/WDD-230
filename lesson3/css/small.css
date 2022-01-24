@@ -102,3 +102,11 @@ footer {
     color:white;
     background-color: #333d29;
 }
+
+#secondfont {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#thirdfont {
+    font-family: 'Cinzel', serif;
+}
