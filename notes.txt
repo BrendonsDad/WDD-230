@@ -9,3 +9,9 @@ Flex: 0 1 auto
 Short for flex-gow, flex -shrink, flex-basis
 
 css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+## tHE dom 
+- Used with javascript
+- selecting elements such as getElementByld() - select an element
+- inner HTML - get and set the HTML content
