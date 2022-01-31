@@ -50,4 +50,9 @@
 	.navigation li:first-child {
 		display: none;
 	}
+    .navigation a:hover {
+        color: #c2c5aa;
+        background-color: #333d29;
+    }
+    
 }
