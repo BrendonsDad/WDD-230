@@ -21,4 +21,11 @@
         grid-column: span 2;
     }
 
+    header,
+    main,
+    footer {
+        max-width: 100%;
+        margin:0 auto;
+}
+
 }
