@@ -1,7 +1,7 @@
 const favchap = document.querySelector('#favchap');
 const buildButton = document.querySelector('button');
 const list = document.querySelector('.list');
-const input = document.querySelector('input')
+const input = document.querySelector('input');
 
 buildButton.addEventListener('click', () => {
     let chap = favchap.value;
@@ -17,7 +17,7 @@ buildButton.addEventListener('click', () => {
 
 
     input.focus()
-    input = ''
+    input.value = ''
     
     
     
