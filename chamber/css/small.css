@@ -10,6 +10,11 @@ body {
     background-color: #c2c5aa;
 }
 
+footer p {
+    text-align: center;
+    margin-top: 10px;
+}
+
 header,
 footer {
     background-color: #656d4a;
@@ -22,6 +27,12 @@ footer {
     border: 1px solid rgba(0, 0, 0, 0.1);
 
 
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 
@@ -38,7 +49,7 @@ h1 {
 
 nav {
     background-color: #333d29;
-    margin: 0 auto;
+    margin: 10px auto;
     max-width: 780px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.9)
 }
@@ -86,8 +97,17 @@ main picture {
 }
 
 footer {
-    height: 2rem;
-    padding: 4rem;
+    padding: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer a:hover {
+    color:black;
 }
 
 #colorone {
@@ -142,4 +162,8 @@ footer {
 */
 .responsive li {
 	display: block;
+}
+
+footer img {
+    width:50px;
 }
