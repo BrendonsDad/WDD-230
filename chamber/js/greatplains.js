@@ -17,3 +17,9 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 
 // To solve the mid resizing issue with responsive class on
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+
+const message = document.querySelector('#events');
+
+if (mydate.getDay() == 2 || mydate.getDay() == 4 || mydate.getDay() == 5 || mydate.getDay() == 6 || mydate.getDay() == 7) {
+	message.style.display = 'none';
+}
