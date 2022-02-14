@@ -18,7 +18,7 @@
 <body>
     <header>
         <picture>
-            <img src='images/Great Plains Commerce.jpg' width='80px'>
+            <img src='images/greatplainscom.webp' width='80px'>
         </picture>
         <section class="headings">
 			<h1>Great Plains Commerce</h1>
@@ -39,7 +39,9 @@
         <article id='cta'>
             <h2 id='welch'>Welcome to the Great Plains</h2>
             <picture>
-                <img src="images/SssssssDdddddd.jpg" alt="Hero Image.">
+                <img src="images/officephoto500.jpg" alt="Hero Image."
+                srcset="images/officephoto800.jpg 800w,
+                images/officephoto1024.jpg 1024w">
             </picture>
             <button id='ton' type="submit">Join the Chamber</button>
         </article>
@@ -77,9 +79,9 @@
             <picture>
                 <img src="images/weather.JPG" alt="Weather Icon.">
             </picture>
-            <h1>42℉</h1>
-            <p>Wind Speed: 2.4 miles/hr</p>
-            <p>Wind Chill: 37℉</p>
+            <h1><span id='temp'>42</span>℉</h1>
+            <p>Wind Speed: <span id="wSpeed">7</span> miles/hr</p>
+            <p>Wind Chill: <span id="windChill"></span>&deg;</p>
         </article>
         <article id='join'>
             <button type="submit">Join Us!</button>
@@ -96,6 +98,6 @@
         <p>&copy; 2022 .:|:. Aubury J. Orr .:|:. Great Plains Commerce - WDD 130 Project</p>
         <p id="lastmod">asdfasdf</p>
     </footer>
-    <script src="js/greatplains.js">
+    <script src="js/windchill.js">
     </script>
 </html>
