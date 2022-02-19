@@ -242,3 +242,15 @@ p {
     text-align: center;
     color: #333d29;
 }
+
+#picimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure {
+    padding: 30px;
+}
+
+figure img:hover {box-shadow: 0 0 50px #333;}
