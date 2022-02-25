@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+</head>
+<body>
+    <form metod="get" action="thankyou.html">
+        <label id="get" action="thankyou.html">First Name:</label>
+        <input id="fname" name="firstname" required>
+        <label for="phone">Phone Number:</label>
+        <input id="phone" type='tel' name="phone" value="208-555-5555">
+        <label for="pw">Password (only letters and at least 7 letters) *:</label>
+        <input id="pw" name="pw" minlenth="7" pattern="[- #$%^&*!@A-Za-z]+">
+        <label id="message">Give us a message</label>
+        <textarea id="message"></textarea>
+        <input type="hidden" name="todaydate" value="CurrentDate">
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
