@@ -40,7 +40,61 @@
         </ul>
     </nav>
     <main>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="1234441234"></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Buisness Title* <input type="text" name="btitle" minlength="7" pattern="- A-Z" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Level</legend>
+                <div>Choose a Level</div>
+                <label class="sbs"><input type="radio" name="level" value="np">Non-Profit</label>
+                <label class="sbs"><input type="radio" name="level" value="bronze">Bronze</label>
+                <label class="sbs"><input type="radio" name="level" value="silver">Silver</label>
+                <label class="sbs"><input type="radio" name="level" value="gold">Gold</label>
+            </fieldset>
 
+            <fieldset>
+                <legend>Buisness Description</legend>
+                <label id="message">Describe Your Buisness</label>
+                <textarea id="message"></textarea>
+                
+            </fieldset>
+            <input type="hidden" name="todaydate" value="CurrentDate">
+            <input type="submit" value="Join Community" class="submitBtn">
+
+        </form>
+
+        <div id="memdesc">
+            <h2>For non profit organizations and there is no fee</h2>
+
+            <h2>Bronze Membership</h2>
+            <ul>
+                <li>15% discount on events</li>
+                <li>10% discount on advertising</li>
+                <li>Fee of $50/month</li>
+            </ul>
+            <h2>Silver Membership</h2>
+            <ul>
+                <li>25% discount on events</li>
+                <li>15% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>Fee of $100/month</li>
+            </ul>
+            <h2>Gold Membership</h2>
+            <ul>
+                <li>50% discount on events</li>
+                <li>50% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>5 free featured ads per year</li>
+                <li>1 free training per quater</li>
+                <li>Fee of $250/month</li>
+            </ul>
+        </div>
     </main>
     <footer>
         <article>
@@ -51,7 +105,7 @@
         <p>&copy; 2022 .:|:. Aubury J. Orr .:|:. Great Plains Commerce - WDD 130 Project</p>
         <p id="lastmod">asdfasdf</p>
     </footer>
-    <script src="js/imageload.js"></script>
+    <!-- <script src="js/imageload.js"></script> -->
     <script src="js/greatplains.js"></script>
 </body>
 
