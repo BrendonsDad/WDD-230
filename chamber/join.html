@@ -64,7 +64,7 @@
                 <textarea id="message"></textarea>
                 
             </fieldset>
-            <input type="hidden" name="todaydate" value="CurrentDate">
+            <input id="date" type="hidden" name="todaydate" value="CurrentDate">
             <input type="submit" value="Join Community" class="submitBtn">
 
         </form>
@@ -107,6 +107,10 @@
     </footer>
     <!-- <script src="js/imageload.js"></script> -->
     <script src="js/greatplains.js"></script>
+    <script>
+        let date = new Date();
+            document.querySelector('#date').value = date;
+    </script>
 </body>
 
 
