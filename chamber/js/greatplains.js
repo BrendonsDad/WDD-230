@@ -23,3 +23,4 @@ const message = document.querySelector('#events');
 if (mydate.getDay() == 2 || mydate.getDay() == 4 || mydate.getDay() == 5 || mydate.getDay() == 6 || mydate.getDay() == 7) {
 	message.style.display = 'none';
 }
+
