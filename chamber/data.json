@@ -27,28 +27,28 @@
         "address": "553 Muldoon Way",
         "phone_num": "588-774-9089",
         "website": "https://www.harsauto.com",
-        "imageurl": ""
+        "imageurl": "images/autoshop.JPG"
       },
       {
         "name": "Parkers Manga Shop",
         "address": "414 88 West Way",
         "phone_num": "878-934-1121",
         "website": "https://www.parkermangaart.com",
-        "imageurl": ""
+        "imageurl": "images/manga.JPG"
       },
       {
         "name": "Forrest Tree Lumber",
         "address": "774 West Cedar Way",
         "phone_num": "801-444-4747",
         "website": "https://www.deforrestation.com",
-        "imageurl": ""
+        "imageurl": "images/lumber.JPG"
       },
       {
         "name": "Sarah's Bakery",
         "address": "125 Lawson Way",
         "phone_num": "212-225-6311",
         "website": "https://www.sarahsbakery.com",
-        "imageurl": ""
+        "imageurl": "images/sarahbakery.JPG"
       },
       {
         "name": "The Yapatorium",
