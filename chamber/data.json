@@ -55,35 +55,35 @@
         "address": "333 Nostalgia Way",
         "phone_num": "466-039-7722",
         "website": "https://www.yapatoriumaberdeen.com",
-        "imageurl": ""
+        "imageurl": "images/yapa.JPG"
       },
       {
         "name": "Arbiter",
         "address": "129 Journey Avenue",
         "phone_num": "609-770-9977",
         "website": "https://www.ilovebees.com",
-        "imageurl": ""
+        "imageurl": "images/marathon.JPG"
       },
       {
         "name": "Danny's Leather Work",
         "address": "37390 Richy Heights Drive",
         "phone_num": "577-908-8373",
         "website": "https://www.dannydandirtydan",
-        "imageurl": ""
+        "imageurl": "images/leathergar.JPG"
       },
       {
         "name": "Aub Guitar",
         "address": "10001 West Burk Street",
         "phone_num": "478-0990-7736",
         "website": "https://www.aubguyguitar.com",
-        "imageurl": ""
+        "imageurl": "images/guitar.JPG"
       },
       {
         "name": "Coleman's Bistro",
         "address": "44998 Benyard Lane",
         "phone_num": "483-984-3993",
         "website": "https://colemansbistro.com",
-        "imageurl": ""
+        "imageurl": "images/bistro.JPG"
       }
     ]
   }
