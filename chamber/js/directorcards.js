@@ -59,8 +59,8 @@ function displayCompanies(company) {
 
 //changing styles in JS
 
-let change = document.querySelector('.cards');
-change.setAttribute('style', 'background-color: pink; border: 5px solid yellow;');
+// let change = document.querySelector('.cards');
+// change.setAttribute('style', 'background-color: pink; border: 5px solid yellow;');
 
 // event listeners for resizing the window and loading the page
 
