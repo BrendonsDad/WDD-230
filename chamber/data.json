@@ -1,136 +1,89 @@
 {
-    "prophets": [
+    "companies": [
       {
-        "name": "Joseph",
-        "lastname": "Smith",
-        "birthdate": "23 December 1805",
-        "death": "27 June 1844",
-        "length": 14,
-        "order": 1,
-        "birthplace": "Vermont",
-        "numofchildren": 11,
-        "imageurl": "chamber/images/tacos.JPG"
+        "name": "Taco Johnny's",
+        "address": "923 N Shade Way",
+        "phone_num": "908-379-3747",
+        "website": "https://www.tacojohnnystacos.com",
+        "imageurl": ""
+      },
+
+      {
+        "name": "The Moving Bros",
+        "address": "464 West Junniper Drive",
+        "phone_num": "647-099-3783",
+        "website": "https://www.movingbrosaberdeen.com",
+        "imageurl": ""
       },
       {
-        "name": "Brigham",
-        "lastname": "Young",
-        "birthdate": "01 June 1801",
-        "death": "29 August 1877",
-        "length": 30,
-        "order": 2,
-        "birthplace": "Vermont",
-        "numofchildren": 56,
-        "imageurl": "https://i.imgur.com/i8VkeaX.jpeg"
+        "name": "Qdoba",
+        "address": "4997 Mainstreet West",
+        "phone_num": "677-908-8377",
+        "website": "https://www.qdoba.com",
+        "imageurl": ""
       },
       {
-        "name": "John",
-        "lastname": "Taylor",
-        "birthdate": "01 November 1808",
-        "death": "25 July 1887",
-        "length": 6,
-        "order": 3,
-        "birthplace": "England",
-        "numofchildren": 34,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
+        "name": "Har's Auto",
+        "address": "553 Muldoon Way",
+        "phone_num": "588-774-9089",
+        "website": "https://www.harsauto.com",
+        "imageurl": ""
       },
       {
-        "name": "Wilford",
-        "lastname": "Woodruff",
-        "birthdate": "01 March 1807",
-        "death": "02 September 1898",
-        "length": 9,
-        "order": 4,
-        "birthplace": "Connecticut",
-        "numofchildren": 34,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
+        "name": "Parkers Manga Shop",
+        "address": "414 88 West Way",
+        "phone_num": "878-934-1121",
+        "website": "https://www.parkermangaart.com",
+        "imageurl": ""
       },
       {
-        "name": "Lorenzo",
-        "lastname": "Snow",
-        "birthdate": "03 April 1814",
-        "death": "19 October 1901",
-        "length": 3,
-        "order": 5,
-        "birthplace": "Ohio",
-        "numofchildren": 42,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lorenzo-snow-82911-gallery.jpg"
+        "name": "Forrest Tree Lumber",
+        "address": "774 West Cedar Way",
+        "phone_num": "801-444-4747",
+        "website": "https://www.deforrestation.com",
+        "imageurl": ""
       },
       {
-        "name": "Joseph F.",
-        "lastname": "Smith",
-        "birthdate": "12 November 1838",
-        "death": "19 November 1918",
-        "length": 17,
-        "order": 6,
-        "birthplace": "Missouri",
-        "numofchildren": 48,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/joseph-f-smith-82912-gallery.jpg"
+        "name": "Sarah's Bakery",
+        "address": "125 Lawson Way",
+        "phone_num": "212-225-6311",
+        "website": "https://www.sarahsbakery.com",
+        "imageurl": ""
       },
       {
-        "name": "Heber J.",
-        "lastname": "Grant",
-        "birthdate": "22 November 1856",
-        "death": "14 May 1945",
-        "length": 23,
-        "order": 7,
-        "birthplace": "Utah",
-        "numofchildren": 12,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/heber-j-grant-82913-gallery.jpg"
+        "name": "The Yapatorium",
+        "address": "333 Nostalgia Way",
+        "phone_num": "466-039-7722",
+        "website": "https://www.yapatoriumaberdeen.com",
+        "imageurl": ""
       },
       {
-        "name": "George A.",
-        "lastname": "Smith",
-        "birthdate": "4 April 1870",
-        "death": "4 April 1951",
-        "length": 6,
-        "order": 8,
-        "birthplace": "Utah",
-        "numofchildren": 3,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/george-albert-smith-82914-gallery.jpg"
+        "name": "Arbiter",
+        "address": "129 Journey Avenue",
+        "phone_num": "609-770-9977",
+        "website": "https://www.ilovebees.com",
+        "imageurl": ""
       },
       {
-        "name": "David O.",
-        "lastname": "McKay",
-        "birthdate": "8 September 1873",
-        "death": "18 January 1970",
-        "length": 19,
-        "order": 9,
-        "birthplace": "Utah",
-        "numofchildren": 7,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/david-o-mckay-82915-gallery.jpg"
+        "name": "Danny's Leather Work",
+        "address": "37390 Richy Heights Drive",
+        "phone_num": "577-908-8373",
+        "website": "https://www.dannydandirtydan",
+        "imageurl": ""
       },
       {
-        "name": "Joseph Fielding",
-        "lastname": "Smith",
-        "birthdate": "19 July 1876",
-        "death": "2 July 1972",
-        "length": 1,
-        "order": 10,
-        "birthplace": "Utah",
-        "numofchildren": 11,
-        "imageurl": "https://media.ldscdn.org/images/media-library/teachings-of-presidents-of-the-church/joseph-fielding-smith/joseph-fielding-smith-82916-gallery.jpg"
+        "name": "Aub Guitar",
+        "address": "10001 West Burk Street",
+        "phone_num": "478-0990-7736",
+        "website": "https://www.aubguyguitar.com",
+        "imageurl": ""
       },
       {
-        "name": "Harold B.",
-        "lastname": "Lee",
-        "birthdate": "28 March 1899",
-        "death": "26 December 1973",
-        "length": 1,
-        "order": 11,
-        "birthplace": "Idaho",
-        "numofchildren": 2,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/harold-b-lee-37763-gallery.jpg"
-      },
-      {
-        "name": "Russell M.",
-        "lastname": "Nelson",
-        "birthdate": "9 September 1924",
-        "death": null,
-        "length": 2,
-        "order": 17,
-        "birthplace": "Utah",
-        "numofchildren": 10,
-        "imageurl": "https://media.ldscdn.org/images/media-library/church-leadership/first-presidency-and-quorum-of-the-twelve-apostles/russell-nelson-official-portrait-2018-2044670-gallery.jpg"
+        "name": "Coleman's Bistro",
+        "address": "44998 Benyard Lane",
+        "phone_num": "483-984-3993",
+        "website": "https://colemansbistro.com",
+        "imageurl": ""
       }
     ]
   }
