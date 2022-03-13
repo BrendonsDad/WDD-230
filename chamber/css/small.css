@@ -357,3 +357,14 @@ form label.top input:required:valid {
     width: 90%;
     border-radius: 4px;
     }
+
+    /*-----------ICONS----------*/
+
+    .material-icons.md-48 { 
+        font-size: 48px; 
+        padding: 5px;
+        margin: 15px 10px 15px 10px;
+        border: #313d24 solid 2px;
+        border-radius: 3px;
+        color: #32461e;
+    }

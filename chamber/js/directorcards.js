@@ -1,13 +1,5 @@
 const requestURL = 'https://brendonsdad.github.io/WDD-230/chamber/data.json'
-// {
-//     "companies": [
-//       {
-//         "name": "Taco Johnny's",
-//         "address": "923 N Shade Way",
-//         "phone_num": "908-379-3747",
-//         "website": "https://www.tacojohnnystacos.com",
-//         "imageurl": ""
-//       },
+
 
 fetch(requestURL)
     .then(function (response) {
@@ -43,6 +35,19 @@ function displayCompanies(company) {
     // Add/append the existing HTML div with the cards class with the section card
     document.querySelector('div.cards').appendChild(card);
 }
+
+let list = document.querySelector('#list')
+list.addEventListener('click', companies.forEach(displayCompanies))
+
+
+
+
+
+
+
+
+
+
 
 //to clear out cards
 
