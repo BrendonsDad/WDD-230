@@ -1,4 +1,4 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 42em) {
     h1 {
         font-size: 1.5rem;
     }
@@ -99,6 +99,15 @@
     .navigation a:hover {
         color: #c2c5aa;
         background-color: #333d29;
+    }
+
+    #welcome {
+        position: absolute;
+        top:80px;
+        left:55px;
+        color:#272918;
+        font-size:1.7rem;
+        
     }
 
     

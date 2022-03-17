@@ -16,6 +16,10 @@ footer p {
     margin-top: 10px;
 }
 
+img {
+    border-radius: 5px;
+}
+
 
 header,
 footer {
@@ -78,6 +82,11 @@ nav ul li a {
     transition: 0.5s;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .active {
     color: #a4ac86;
 }
@@ -110,15 +119,25 @@ footer {
 }
 
 #sl1 {
-    border: 1px solid gray;
+    padding: .8em;
+    border: 1px solid #656d4a;
+    border-radius: 5px;
+    margin:.5em;
 }
 
 #sl2 {
-    border: 1px solid gray;
+    padding: .8em;
+    border: 1px solid #656d4a;
+    border-radius: 5px;
+    margin:.5em;
 }
 
 #sl3 {
+    border: 1px solid #656d4a;
+    border-radius: 5px;
+    padding: .8em;
     display: none;
+    margin:.5em;
 }
 
 footer a {
@@ -215,9 +234,13 @@ p {
     position: absolute;
     top:125px;
     left:55px;
-    color:#c2c5aa;
-    size:4rem;
+    color:#272918;
+    font-size:1.5rem;
     
+}
+
+#welcome {
+    font-weight: 1.3em;
 }
 
 #ton {
@@ -367,4 +390,15 @@ form label.top input:required:valid {
         border: #313d24 solid 2px;
         border-radius: 3px;
         color: #32461e;
+    }
+
+    button {
+        padding: .9rem;
+        border-radius: 10px;
+        color: white;
+        background-color: #656d4a;
+    }
+    
+    section {
+        padding: 1em;
     }
