@@ -26,5 +26,33 @@ images.forEach(images => {
 });
 
 
+function visits() {
+    //check to see if there is a last date
+    //get the last date (get item "lastDate")
+    //subtract it from the current date
+    //else set todays date("last date = date.now")
 
+    const visitElement = document.getElementById("lastvisit");
+    const currentVisit = Date.now();
+    const lastVisit = localStorage.getItem("lastVisit") ?? currentVisit;
+    localStorage.setItem("lastVisit", currentVisit);
 
+    
+    function setDate() {
+        let difference = currentVisit - lastVisit;
+        let daysDifference = Math.floor(difference / 100 / 600 / 60 / 24);
+        visitElement.textContent = daysDifference;
+
+        currentVisit.getDay();
+        console.log(currentVisit);
+
+        if (daysDifference != 0) {
+            visitElement.textContent = currentVisit;
+        }
+
+    }
+    console.log(visitElement);
+    setDate();
+}
+
+visits();

@@ -481,6 +481,7 @@ form label.top input:required:valid {
     textarea {
         width: 100%;
         height: 200px;
+        padding-top: 15px;
     }
 
     #picimg figure {
