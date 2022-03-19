@@ -24,3 +24,6 @@ if (mydate.getDay() == 2 || mydate.getDay() == 4 || mydate.getDay() == 5 || myda
 	message.style.display = 'none';
 }
 
+
+
+
