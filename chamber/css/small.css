@@ -282,7 +282,13 @@ figure img:hover {box-shadow: 0 0 50px #333;}
 form {
     text-align: left;
     max-width: 960px;
-    margin-left: 450px;
+    min-width: 27rem;
+    margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    
 
 }
 
@@ -450,3 +456,29 @@ form label.top input:required:valid {
         padding-bottom: 100px;
     }
   
+
+    #bofd {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-content: space-evenly;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+
+    #bofd img {
+        width: 200px;
+    }
+
+    .board {
+        background-color: #656d4a;
+        width: 350px;
+    }
+
+    textarea {
+        width: 100%;
+        height: 200px;
+    }

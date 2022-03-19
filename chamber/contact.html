@@ -42,8 +42,42 @@
         </ul>
     </nav>
     <main>
-        <h1>Thank you so much for joining our community!</h1>
-        <h3>You will recieve a confirmation email shortly.</h3>
+        <h1>Meet Our Board of Directors!</h1>
+        <div id="bofd">
+            <section class="board">
+                <img src="images/stevebucemi.jpg" alt="Steve Bucemi">
+                <h2>Hansen Smansen</h2>
+                <h3>Senior Operator</h3>
+            </section>
+            <section class="board">
+                <img src="images/hughmungus.jpg" alt="Hugh Mungus">
+                <h2>Hugh Mungus</h2>
+                <h3>Vice President</h3>
+            </section>
+            <section class="board">
+                <img src="images/jordanpetersonnew.jpg" alt="Jordan Peterson">
+                <h2>Jordan Peterson</h2>
+                <h3>Jordan Peterson</h3>
+            </section>
+            <section class="board">
+                <img src="images/drewberrymore.jpg" alt="Drew Berrymore">
+                <h2>Julia Gulia</h2>
+                <h3>Quality Assurance</h3>
+            </section>
+        </div>
+
+        <form method="get" action="thankyou.html">
+            
+            <fieldset>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <legend>Contact Us!</legend>
+                <label id="message"></label>
+                <textarea id="message"></textarea>
+                
+            </fieldset>
+            <input id="date" type="hidden" name="todaydate" value="CurrentDate">
+            <input type="submit" value="Send Message" class="submitBtn">
+
 
     </main>
     <footer>

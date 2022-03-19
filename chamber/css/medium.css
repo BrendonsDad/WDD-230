@@ -116,6 +116,13 @@
         padding:20px;
       }
     
+
+
+    /* --------CHANGE FORM--------- */
+
+    form {
+        min-width: 42rem;
+    }
     
     
 }
