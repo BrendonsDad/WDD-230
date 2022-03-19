@@ -482,3 +482,11 @@ form label.top input:required:valid {
         width: 100%;
         height: 200px;
     }
+
+    #picimg figure {
+        width: 400px;
+    }
+
+    #picimg img {
+        width: 100%;
+    }

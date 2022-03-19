@@ -123,6 +123,14 @@
     form {
         min-width: 42rem;
     }
+
+    #picimg figure {
+        width: 700px;
+    }
+
+    #picimg img {
+        width: 100%;
+    }
     
     
 }

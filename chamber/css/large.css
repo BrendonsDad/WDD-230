@@ -119,4 +119,12 @@
         min-width: 65rem;
     }
 
+    #picimg figure {
+        width: 500px;
+    }
+
+    #picimg img {
+        width: 100%;
+    }
+
 }
