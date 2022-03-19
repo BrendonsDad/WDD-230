@@ -82,7 +82,7 @@ nav ul li a {
     transition: 0.5s;
 }
 
-a {
+button a {
     text-decoration: none;
     color: white;
 }
@@ -351,11 +351,20 @@ form label.top input:required:valid {
     width: 100%;
     margin: 0 auto;
     }
+
+
+
+
     .cards {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    padding-bottom: 100px;
     }
     .cards section {
     border: 1px solid #333d29;
@@ -398,7 +407,46 @@ form label.top input:required:valid {
         color: white;
         background-color: #656d4a;
     }
+
+    #list:hover, #cards:hover{
+        background-color:white; 
+        color: black; 
+        transition-duration: 0.2s;
+        cursor: pointer;
+    }
     
     section {
         padding: 1em;
     }
+
+    /*-------- DIRECTOR PAGE FOR TABLE----------*/
+
+    /*List CSS */
+    .table tr td {
+        display: block;
+        border: none;
+        line-height: 3rem;
+    }
+
+    .table{
+        text-align:center;
+    }
+
+    tr:nth-child(even) {
+        background-color: #656d4a;
+        color: #c2c5aa;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #333d29;;
+        color: white;
+    }
+
+    table a {
+        color: skyblue;
+    }
+
+    .table .cards {
+        padding-bottom: 100px;
+    }
+  

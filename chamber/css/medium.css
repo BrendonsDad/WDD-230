@@ -110,6 +110,12 @@
         
     }
 
+    /* -----MEDIUM DIRECTOR------- */
+    .table tr td {
+        display: inline;
+        padding:20px;
+      }
+    
     
     
 }

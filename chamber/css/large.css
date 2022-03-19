@@ -94,4 +94,23 @@
         right:150px
     }
 
+    .cards {
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: 50px 50px 50px;
+        /* text-align: center;
+        justify-content: center; */
+        justify-content: space-evenly;
+        justify-items: center;
+        align-content: space-evenly;
+        align-items: center;
+        padding-bottom: 100px;
+        }
+
+
+    .table tr td {
+        padding:100px;
+        }
+
 }
