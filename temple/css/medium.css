@@ -1,0 +1,97 @@
+@media only screen and (min-width: 42em) {
+    /*-------FONT--------*/
+    body {
+        font-size: 1.25rem;
+    }
+
+    /*--------NAV--------*/
+    nav ul { display: flex;}
+    nav ul li { flex: 1 1 auto;}
+    
+    nav a {
+        font-size: 1rem;
+    }
+
+    nav a:hover {
+        --d: 75%;
+    }
+
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+    .navigation a:hover {
+        color: white;
+        background-color: #00b4d8;
+    }
+
+
+    /*--------HOME--------*/
+    .calltoaction {
+        margin-top: 100px;
+    }
+    
+    /*------------Home page mission statement------------*/
+
+    .homemission {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 25px;
+        padding-bottom: 25px;;
+        justify-content: center;
+        justify-content: space-evenly;
+        justify-items: center;
+        text-align: left;
+        align-content: space-evenly;
+        align-items: center;
+        background-color: #0077b6;
+        color: white;
+        border-radius: 3px;
+    }
+
+    .homemission img {
+        grid-column: 2/3;
+    }
+
+    .missionstatement {
+        grid-column: 1/2;
+        padding-left: 25px;
+    }
+
+    /*------------Services------------*/
+
+
+    .missionbit {
+        display: grid;
+        grid-gap:40px;
+        grid-template-columns: 1fr 1fr;
+        padding:30px;
+        font-size: 1.59rem;
+    }
+    
+    .weddingbit {
+        display: grid;
+        grid-gap:40px;
+        grid-template-columns: 1fr 1fr;
+        padding:30px;
+        font-size: 1.59rem;
+    }
+
+    .weddingi {
+        float:right;
+    }
+   
+    .weddingi, .missioni {
+        max-width:400px;
+    }
+
+}

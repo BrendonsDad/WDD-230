@@ -1,0 +1,43 @@
+@media only screen and (min-width: 97em) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    /*------------Home page mission statement------------*/
+
+    .homemission {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 25px;
+        padding-bottom: 25px;;
+        justify-content: center;
+        justify-content: space-evenly;
+        justify-items: center;
+        text-align: left;
+        align-content: space-evenly;
+        align-items: center;
+        background-color: #0077b6;
+        color: white;
+        border-radius: 3px;
+    }
+
+    .homemission img {
+        grid-column: 3/4;
+    }
+
+    .missionstatement {
+        grid-column: 1/2;
+        padding-left: 25px;
+    }
+
+    /*------------Services------------*/
+
+
+    .weddingi, .missioni {
+        max-width:475px;
+    }
+
+    .weddingi {
+        margin-left:225px;
+    }
+}

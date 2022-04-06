@@ -1,0 +1,29 @@
+{
+    "temples": [
+      {
+        "name": "Gilbert, Arizona",
+        "address": "3301 S Greenfield Rd",
+        "phone_num": "(480-822-5000)",
+        "imageurl": "images/gilberttemple.png"
+      },
+
+      {
+        "name": "Paris, France",
+        "address": "464 West Junniper Drive",
+        "phone_num": "647-099-3783",
+        "imageurl": "images/paristemple.jpg"
+      },
+      {
+        "name": "Rome, Italy",
+        "address": "4997 Mainstreet West",
+        "phone_num": "677-908-8377",
+        "imageurl": "images/rometemple.jpg"
+      },
+      {
+        "name": "Payson, Utah",
+        "address": "553 Muldoon Way",
+        "phone_num": "588-774-9089",
+        "imageurl": "images/paysontemple.jpg"
+      }
+    ]
+  }
