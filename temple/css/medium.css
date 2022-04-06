@@ -94,4 +94,24 @@
         max-width:400px;
     }
 
+
+    .reserve {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    .reserveform {
+        grid-column: 1/2;
+        margin-left: 25px;
+    }
+
+    .reservesummary {
+        grid-column: 2/3;
+        border-left: 10px solid #0077b6;
+        margin-left: 90px;
+        padding-left: 35px;
+        border-radius: 5px;
+    }
+
 }

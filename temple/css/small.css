@@ -216,8 +216,18 @@ footer {
     height: auto;
 }
 
-.weather img {
+#weather img {
     max-width: 100px;
+}
+
+#weather {
+    justify-content: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
 }
 
 /*------------Services------------*/
@@ -227,6 +237,10 @@ footer {
     color: white;
     display:flex;
     border-radius: 3px;
+}
+
+.servicestop li {
+    padding-bottom:12px;
 }
 
 .freegrid  {
@@ -266,6 +280,12 @@ div {
     padding:30px;
 }
 
+.servicesmain {
+    max-width: 1600px;
+    margin:20px;
+    margin: 0 auto;
+}
+
 
 /*------------MISSIONARY PAGE-------------*/
 
@@ -299,7 +319,7 @@ div {
     text-align: center;
     width: 300px;
     margin: 20px;
-    box-shadow: 5px 10px 8px 5px #656d4a;
+    box-shadow: 5px 10px 8px 5px grey;
     }
     .cards h2 {
     color: #023e8a;
@@ -315,3 +335,115 @@ div {
     width: 90%;
     border-radius: 4px;
     }
+
+    #templeheading {
+        text-align: center;
+        margin:0 auto;
+        justify-content: center;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-content: space-evenly;
+        align-items: center;
+    }
+
+    /*----------Thank you page------------*/
+
+    .thankyou {
+        margin: 0 auto;
+        max-width:1600px;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .thankyou a {
+        color:#0077b6;
+    }
+
+    /*-----------FORM------------*/
+    form {
+        text-align: left;
+        max-width: 960px;
+        align-content: space-evenly;
+        align-items: center;
+        
+    
+    }
+    
+    form fieldset {
+        margin: 2rem 0;
+        border: 1px solid #023e8a;
+        border-radius: 7px;
+        padding: .5rem 2%;
+    }
+    
+    form legend {
+        color:#0077b6;
+        margin: 0 1rem;
+        padding: 0 .5rem;
+    }
+    
+    form label.top, form div {
+        display: block;
+        padding-top: 1rem;
+        color: #023e8a;
+        font-size: 1.2rem;
+    }
+    
+    form label.top input, form label.top select {
+        -webkit-appearance: none;
+        display: block;
+        font-size: 1.2rem;
+        border: solid 1px #999;
+        border-radius: 4px;
+        padding: .75rem;
+        color: #555;
+        width: 90%;
+        max-width: 20rem;
+        background-color: rgba(0,0,0,0.1);
+    }
+    
+    form label.sbs {
+        display: block;
+        padding: .75rem 0;
+        color: #555;
+    }
+    
+    form input.submitBtn {
+        border: none;
+        background-color: #0077b6;
+        color: white;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        margin: 0 0 2rem 2%;
+        width: 96%;
+        max-width: 20rem;
+    }
+    
+    
+    form label.top input:required:valid {
+        border-left: green solid 7px;
+    }
+
+
+    .row {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        margin: 0 -16px;
+      }
+      
+      
+      
+      .col-50,
+      .col-75 {
+        padding: 0 16px;
+      }
+
+      label {
+        margin-bottom: 10px;
+        display: block;
+      }
+      
+      
+      

@@ -7,16 +7,11 @@
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
     <meta name="viewport" content="Book a hotel near the temple in minutes!">
-    <title>Temples Inn and Suites</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Make a Reservation</title>
 </head>
 <body>
     <header>
-        <div class="topBanner">
-            <img id="bannerimg"src="images/sanditemple.jpg" alt="Sandiego Temple">
-            <div class="headerLogo">
-                <a href="index.html"><img src="images/templesuiteslogo.png" alt="Heading Logo"></a>
-            </div>
-        </div>
         <nav>
             <ul class = "navigation">
                 <li><a class="ham" href="#">Menu</a></li>
@@ -28,6 +23,56 @@
         </nav>
     </header>
     <main>
+        <div class="reserve">
+            <div class="reserveform">
+                <form method="get" action="thankyou.html">
+                    <fieldset>
+                        <legend>Basic Info</legend>
+                        <label class="top">First Name*<input type="text" name="fname" required></label>
+                        <label class="top">Last Name*<input type="text" name="lname" required></label>
+                        <label class="top">Phone <input type="tel" name="phone" placeholder="1234441234"></label>
+                        <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label for="reserveday">Dates:</label>
+                        <input type="date" id="reserveday" name="reserveday">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Type of Room</legend>
+                        <div>Choose a Level</div>
+                        <label class="sbs"><input type="radio" name="level" value="bronze">One Bedroom</label>
+                        <label class="sbs"><input type="radio" name="level" value="silver">Two Bedroom</label>
+                        <label class="sbs"><input type="radio" name="level" value="gold">Honeymoon Suite</label>
+                    </fieldset>
+        
+                    <fieldset>
+                        <legend>Payment</legend>
+                        <img src="images/paymethod.png" alt="acceptable payments: Discover, Paypale, Visa, Mastercard">
+                        <label for="cname">Name on Card</label>
+                        <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                        <label for="ccnum">Credit card number</label>
+                        <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                        <label for="expmonth">Exp Month</label>
+                        <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                        <div class="row">
+                        <div class="col-50">
+                            <label for="expyear">Exp Year</label>
+                            <input type="text" id="expyear" name="expyear" placeholder="2018">
+                        </div>
+                        <div class="col-50">
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" name="cvv" placeholder="352">
+                        </div>
+                        
+                    </fieldset>
+                    <input id="date" type="hidden" name="todaydate" value="CurrentDate">
+                    <input type="submit" value="Reserve Hotel" class="submitBtn">
+        
+                </form>
+            </div>
+            <div class="reservesummary">
+                <h3>Order Summary:</h3>
+
+            </div>
+        </div>
 
     </main>
     <footer>
